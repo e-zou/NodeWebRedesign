@@ -1,0 +1,140 @@
+/* Defaults */
+@font-face {
+    font-family: proxima-nova;
+    src: url("PROXIMANOVA-REG.otf") format("opentype");
+}
+
+body, .content, h1, h2, p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 55px;
+    
+}
+
+h3 {
+    font-size: 45px;
+}
+h4 {
+    font-size 36px;
+}
+p {
+    font-size: 30px;
+
+}
+
+/* Header */
+.menu {
+    height: 78px;
+    background-color: #1F435D;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20;
+    font-family: proxima-nova, sans-serif;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.menu img {
+    width: 60px;
+    height: 60px;
+}
+
+/* NavBar 2 */
+.s1_learn img {
+    width: 60px;
+    height: 60px;
+}
+
+.s1_learn {
+    font-size: 20;
+    height: 80px;
+}
+
+.navbar-custom {
+    background-color: #ff5500;;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F435D;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    height: 530px;
+}
+
+.footer h2 {
+    margin-bottom: 5%;
+}
+.footer .stack img {
+    filter: brightness(0) invert(1);
+    width: auto;
+    height: 120px; 
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.col-5 {
+}
+
+.stack {
+ 
+}
+
+.social_media img {
+    width: 47px;
+    height: 47px;
+}
+
+.fitem {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.aboutHack, .founding {
+    margin-top: 50px;
+}
+
+.social_media {
+    height: 5%;
+}
+
+.partnerships {
+    flex-direction: column;
+}
+
+.founding h2 {
+   margin-bottom: 10%;
+}
