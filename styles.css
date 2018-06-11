@@ -138,3 +138,99 @@ p {
 .founding h2 {
    margin-bottom: 10%;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+.heroimage {
+	padding-left: 10%;
+	margin: 0;
+	height: 800px;
+	background: url("images/Rectangle3.png") no-repeat center center; 
+	background-size: cover;
+	position: relative;
+}
+.hero {
+  height: 400px;
+}
+.logo {
+	margin-right: 0;
+}
+.node-logo {
+	height: 90px;
+}
+.col-12 {
+	padding: 0;
+}
+h2 {
+	color: #faf4f4;
+	font-size: 25px;
+	font-family: 'Titillium web', sans-serif;
+	padding: 11% 0 2% 0;
+}
+h3 {
+	line-height: 160%;
+	width: 40%;
+	padding: 2% 0 3% 0;
+	color: #faf4f4;
+	font-size: 20px;
+	font-family: 'Titillium web', sans-serif;
+}
+h4 {
+	color: #faf4f4;
+	font-size: 25px;
+	font-family: 'Titillium web', sans-serif;
+	margin: 0;
+}
+.btn-lg {
+	color: #faf4f4;
+	font-size: 30px;
+	background-color: rgb(142,197,197, 0.7);
+	margin-left: 10%;
+	padding: 3% 10% 3% 10%;
+	border: solid #faf4f4 3px;
+	border-radius: 0;
+}
+.quote {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-family: 'Titillium web', sans-serif;
+	font-size: 20px;
+	color: #faf4f4;
+	padding: 5% 10% 5% 10%;
+	text-align: left;
+	height: 30%;
+	background-color: rgb(250,244,244, 0.25);
+}
+.author {
+	padding: 2% 0 0 8%;
+}
+@media screen and (max-width: 768px) {
+	.quote { 
+		width: 40%;
+		top: 10%;
+		right: 0;
+	}
+	h3 {
+		width: 50%;
+		font-size: 18px;
+		margin-left: 5%;
+	}
+	h2 {
+		margin-left: 5%;
+	}
+	.logo {
+		margin-left: 5%;
+	}
+	.btn-lg {
+		font-size: 20px;
+		margin-left: 55%;
+	}
+>>>>>>> b8e81cba41f64f6fb929467a3442b8620a7438ed
+}
