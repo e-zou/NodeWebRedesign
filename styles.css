@@ -17,7 +17,6 @@ h1 {
 
 h2 {
     font-size: 55px;
-    
 }
 
 h3 {
@@ -139,10 +138,8 @@ p {
    margin-bottom: 10%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Hero Image */
+
 .container-fluid {
 	padding: 0;
 	margin: 0;
@@ -167,13 +164,13 @@ p {
 .col-12 {
 	padding: 0;
 }
-h2 {
+.heroimage h2 {
 	color: #faf4f4;
 	font-size: 25px;
 	font-family: 'Titillium web', sans-serif;
 	padding: 11% 0 2% 0;
 }
-h3 {
+.heroimage h3 {
 	line-height: 160%;
 	width: 40%;
 	padding: 2% 0 3% 0;
@@ -181,7 +178,7 @@ h3 {
 	font-size: 20px;
 	font-family: 'Titillium web', sans-serif;
 }
-h4 {
+.heroimage h4 {
 	color: #faf4f4;
 	font-size: 25px;
 	font-family: 'Titillium web', sans-serif;
@@ -217,12 +214,12 @@ h4 {
 		top: 10%;
 		right: 0;
 	}
-	h3 {
+	.heroimage h3 {
 		width: 50%;
 		font-size: 18px;
 		margin-left: 5%;
 	}
-	h2 {
+	.heroimage h2 {
 		margin-left: 5%;
 	}
 	.logo {
@@ -232,5 +229,4 @@ h4 {
 		font-size: 20px;
 		margin-left: 55%;
 	}
->>>>>>> b8e81cba41f64f6fb929467a3442b8620a7438ed
 }
