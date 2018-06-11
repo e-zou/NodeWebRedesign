@@ -82,10 +82,13 @@ p {
 .footer h2 {
     margin-bottom: 5%;
 }
-.footer .stack img {
+.founding img {
     filter: brightness(0) invert(1);
+    height: 30px;
     width: auto;
     height: 120px; 
+    margin-bottom: 3%;
+    margin-right: 5%;
 }
 
 .foot {
@@ -96,13 +99,6 @@ p {
 
 .container-fluid {
     width: 100%;
-}
-
-.col-5 {
-}
-
-.stack {
- 
 }
 
 .social_media img {
@@ -119,7 +115,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 100%;
 }
 
 .aboutHack, .founding {
@@ -130,103 +126,103 @@ p {
     height: 5%;
 }
 
-.partnerships {
+.founding {
     flex-direction: column;
 }
 
 .founding h2 {
-   margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 /* Hero Image */
 
 .container-fluid {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 .heroimage {
-	padding-left: 10%;
-	margin: 0;
-	height: 800px;
-	background: url("images/Rectangle3.png") no-repeat center center; 
-	background-size: cover;
-	position: relative;
+    padding-left: 10%;
+    margin: 0;
+    height: 800px;
+    background: url("images/Rectangle3.png") no-repeat center center; 
+    background-size: cover;
+    position: relative;
 }
 .hero {
-  height: 400px;
+    height: 400px;
 }
 .logo {
-	margin-right: 0;
+    margin-right: 0;
 }
 .node-logo {
-	height: 90px;
+    height: 90px;
 }
 .col-12 {
-	padding: 0;
+    padding: 0;
 }
 .heroimage h2 {
-	color: #faf4f4;
-	font-size: 25px;
-	font-family: 'Titillium web', sans-serif;
-	padding: 11% 0 2% 0;
+    color: #faf4f4;
+    font-size: 25px;
+    font-family: 'Titillium web', sans-serif;
+    padding: 11% 0 2% 0;
 }
 .heroimage h3 {
-	line-height: 160%;
-	width: 40%;
-	padding: 2% 0 3% 0;
-	color: #faf4f4;
-	font-size: 20px;
-	font-family: 'Titillium web', sans-serif;
+    line-height: 160%;
+    width: 40%;
+    padding: 2% 0 3% 0;
+    color: #faf4f4;
+    font-size: 20px;
+    font-family: 'Titillium web', sans-serif;
 }
 .heroimage h4 {
-	color: #faf4f4;
-	font-size: 25px;
-	font-family: 'Titillium web', sans-serif;
-	margin: 0;
+    color: #faf4f4;
+    font-size: 25px;
+    font-family: 'Titillium web', sans-serif;
+    margin: 0;
 }
 .btn-lg {
-	color: #faf4f4;
-	font-size: 30px;
-	background-color: rgb(142,197,197, 0.7);
-	margin-left: 10%;
-	padding: 3% 10% 3% 10%;
-	border: solid #faf4f4 3px;
-	border-radius: 0;
+    color: #faf4f4;
+    font-size: 30px;
+    background-color: rgb(142,197,197, 0.7);
+    margin-left: 10%;
+    padding: 3% 10% 3% 10%;
+    border: solid #faf4f4 3px;
+    border-radius: 0;
 }
 .quote {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	font-family: 'Titillium web', sans-serif;
-	font-size: 20px;
-	color: #faf4f4;
-	padding: 5% 10% 5% 10%;
-	text-align: left;
-	height: 30%;
-	background-color: rgb(250,244,244, 0.25);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Titillium web', sans-serif;
+    font-size: 20px;
+    color: #faf4f4;
+    padding: 5% 10% 5% 10%;
+    text-align: left;
+    height: 30%;
+    background-color: rgb(250,244,244, 0.25);
 }
 .author {
-	padding: 2% 0 0 8%;
+    padding: 2% 0 0 8%;
 }
 @media screen and (max-width: 768px) {
-	.quote { 
-		width: 40%;
-		top: 10%;
-		right: 0;
-	}
-	.heroimage h3 {
-		width: 50%;
-		font-size: 18px;
-		margin-left: 5%;
-	}
-	.heroimage h2 {
-		margin-left: 5%;
-	}
-	.logo {
-		margin-left: 5%;
-	}
-	.btn-lg {
-		font-size: 20px;
-		margin-left: 55%;
-	}
+    .quote { 
+        width: 40%;
+        top: 10%;
+        right: 0;
+    }
+    .heroimage h3 {
+        width: 50%;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    .heroimage h2 {
+        margin-left: 5%;
+    }
+    .logo {
+        margin-left: 5%;
+    }
+    .btn-lg {
+        font-size: 20px;
+        margin-left: 55%;
+    }
 }
