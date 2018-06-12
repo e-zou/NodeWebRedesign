@@ -2,37 +2,39 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="teststyles.css">
+       
     </head>
     <body>
-        <ul class="row">
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/1.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/2.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/3.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/4.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/5.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/6.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/7.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/8.jpg">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img class="img-responsive" src="galleryimages/9.jpg">
-            </li>
-        </ul>
+    	<div class="container all">
+	        <div class="row pics">
+	            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="openModal()">
+	                <img id="man" src="galleryimages/1.jpg">
+	            </div>
+	            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="openModal()">
+	                <img id="blah" src="galleryimages/2.jpg">
+	            </div>
+	            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="openModal()">
+	                <img id="colors" src="galleryimages/3.jpg">
+	            </div>
+	        </div>
+
+	        <div class="modal" id="myModal">
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		                <img id="man" src="galleryimages/1.jpg">
+		            </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		                <img id="blah" src="galleryimages/2.jpg">
+		            </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		                <img id="colors" src="galleryimages/3.jpg">
+		            </div>
+	        </div>
+	    </div>
     </body>
+
+     <script type="text/javascript" src="main.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 </html>
+
